@@ -1,0 +1,84 @@
+body *{
+  font-family: Verdana, arial, sans-serif;
+  padding: 0;
+  margin: 0 auto; /*makes this central - the view of the website*/
+  clear: both; /*clear the float*/
+  font-weight: bold;
+}
+#wrapper{
+  display: inline-block;
+  background-image:url(pics/background.png);
+  width: 1200px;
+  height: 800px;
+  padding: 15px;
+}
+form{
+  display: inline-block;
+  width: 200px;
+  height: 765px;
+  background: transparent;
+  margin-right: 15px;
+}
+#fname, #lname{
+  color: orange !important;
+  border-bottom: 2px solid grey;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  background: transparent;
+  margin-bottom: 30px;
+}
+input{
+  height: 50px;
+  width: 200px;
+  font-size: 20px;
+}
+textarea{
+  border-bottom: 2px solid grey;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  height: 200px;
+  background: transparent;
+}
+#submit{
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  width: 50px;
+  margin-left: 160px;
+}
+.allboxes{
+  display: inline-block;
+  width: 979px;
+  height: 797px;
+  vertical-align: top;
+}
+.box{
+  display: inline-block;
+  background-color: grey;
+  color: white;
+  margin-right: 10px;
+  opacity: 0.4;
+  border-radius: 10px;
+  width: 380px;
+  height: 80px;
+  vertical-align: top;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+.flipcard{
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+}
+.names{
+  font-size: 36px;
+}
+.descriptionsadded{
+  font-size: 12px;
+  display: none;
+}
